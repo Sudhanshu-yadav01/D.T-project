@@ -1,0 +1,168 @@
+@font-face {
+    font-family: ment;
+    src: url(./MentiDisplay-SemiBold.ttf);
+}
+
+*{padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.page1{
+    
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(2, 2, 2);
+    background-image  :  url(./black\ d.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+    
+
+.headimg{
+    overflow: hidden;
+    margin-left: 9vw;
+    position: absolute;
+    z-index: 9;
+    
+}
+.nav1{
+    width: 100vw;
+    height: 12vh;
+    background-color: #add8e600;
+    overflow: hidden;
+}
+.nav{
+    width: 100vw;
+    height: 12vh;
+    color: white;
+    margin-left: 350px;
+    overflow: hidden;
+    font-family: ment;
+    font-weight: 800;
+    font-size: 35px;
+    background-color: hsla(195, 53%, 79%, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+} 
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(2, 2, 2);
+    background-image  :  url(./cat.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.page2-heading{
+    overflow: hidden;
+    font-size: 2vw;
+    font-family: ment;
+    font-weight: 300;
+    margin-left: 25%;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    width: 50vw;
+    height: 10vh;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid whitesmoke;
+    border-radius: 35px;
+}
+
+.page2-content p {
+    margin-top: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: 100;
+    font-family: ment;
+    height: 9vh;
+    width: 100%;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0);
+    overflow: hidden;
+}
+
+.page2-content span{
+    margin-left: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    margin-top: 5vh;
+    width: 800px;
+    font-size: 9vh;
+    font-weight: 900;
+    color: rgb(29, 195, 210);
+    background-color: rgba(0, 0, 0, 0);
+    font-family: ment;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(29, 195, 210);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    padding: 5%;
+    background-image: url(./rabbit2.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+    justify-content: center;
+
+}
+
+.search-bar{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(225, 225, 225, 0.2);
+    display: flex;
+    align-items: center;
+     justify-content: center;
+   border-radius: 60px;
+   padding: 10px 20px;
+   backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder{
+    color: #cac7ff;   
+}
+
+.search-bar button image{
+    width: 25px;
+}
+/* search-bar button{
+ border: 0;
+ border-radius: 540px;
+ width: 60px;
+ height: 60px;
+ background: #58629b;
+ cursor: pointer;
+
+} 
